@@ -14,7 +14,7 @@ const Navigate = () => {
       <Routes>
         <Route path="/" element={<Wordle />} />
         <Route path="/login" element={<Login />} />
-        <Route path="/re<gister" element={<Register />} />
+        <Route path="/register" element={<Register />} />
         <Route element={<PrivateRoute />}>
           <Route path="/create-book" element={<>Entraste :)</>} />
         </Route>
