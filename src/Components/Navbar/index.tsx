@@ -1,8 +1,9 @@
 import { NavLink } from "react-router-dom";
+import "./style.css";
 
 const Navbar: React.FC<{ email: string }> = ({ email }) => {
   return (
-    <div>
+    <div className="navbar-container">
       {email ? `Bienvenido ${email}` : null}
       <ul>
         <li>

@@ -1,0 +1,27 @@
+.navbar-container {
+  display: flex;
+  background-color: lightgrey;
+  margin: 20px 0;
+}
+.navbar-container ul {
+  display: flex;
+  list-style-type: none;
+  flex: 1;
+  margin: 2px;
+  padding: 0;
+  gap: 2px;
+}
+.navbar-container li {
+  display: flex;
+  flex: 1;
+}
+.navbar-container li a {
+  flex: 1;
+  padding: 10px;
+  color: white;
+  background-color: darkgray;
+  transition: background-color 0.26s ease;
+}
+.navbar-container li a:hover {
+  background-color: gray;
+}
