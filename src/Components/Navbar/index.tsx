@@ -16,9 +16,6 @@ const Navbar: React.FC<{ email: string }> = ({ email }) => {
           <NavLink to={"/login"}>Login</NavLink>
         </li>
         <li>
-          <NavLink to={"/register"}>Register</NavLink>
-        </li>
-        <li>
           <NavLink to={"/register"}>Registro</NavLink>
         </li>
       </ul>
